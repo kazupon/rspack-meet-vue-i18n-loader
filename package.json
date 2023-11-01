@@ -1,0 +1,23 @@
+{
+  "name": "rspack-vue-starter",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "dev": "rspack serve",
+    "build": "rspack build"
+  },
+  "dependencies": {
+    "vue": "3.2.45",
+    "vue-i18n": "^9.6.2"
+  },
+  "devDependencies": {
+    "@intlify/unplugin-vue-i18n": "^1.4.0",
+    "@intlify/vue-i18n-loader": "5.0.0",
+    "@rspack/cli": "latest",
+    "vue-loader": "^17.2.2"
+  },
+  "keywords": [],
+  "author": ""
+}
